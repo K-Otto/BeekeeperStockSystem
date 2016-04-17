@@ -9,3 +9,5 @@ According to the domain model there can be more than one beekeeper active. Curre
 According to the domain model every time i harvest honey from a specific location it will be logged using the date and site location ID as the primary key. In order to keep track of how much is harvested and how much is remaining there will be two attributes. One logging the total harvested that day(The value wont change again) and another that will keep track of how much is still remaining. After each harvest the honey gets bottled into various categories(different weight sizes). For example. I harvested 85kg form site b. That gets split up into 1*20kg, 4*5kg, 20*1kg, 50*500g. 
 The stock then becomes available to be sold. An order is placed by a customer. The salesman then logs the order. The stock is removed from the stock entity. 
 This application will allow me to not only keep track of my sales but also my honey stock and hive statuses. It will also allow me to see which site performs the best etc. 
+
+Picture is linked separately 
